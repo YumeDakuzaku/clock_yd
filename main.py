@@ -12,7 +12,7 @@ def time():
     label.after(1000, time)
 
 
-label = Label (root, font=("arial", 60), background = "black", foreground ="cyan")
+label = Label (root, font=("Verdana", 60), background = "black", foreground ="cyan")
 label.pack(anchor='center')
 
 time()
